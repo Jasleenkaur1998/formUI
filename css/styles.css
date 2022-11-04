@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+   
+
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    margin: 0;
+    color: white;
+    background-image: linear-gradient(115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7)), url(/images/survey-form-background.jpeg);
+
+}
+
+header {
+
+    text-align: center;
+
+}
+
+input {
+    padding: 2px;
+    border-radius: 5px solid white;
+}
+
+.input-textarea {
+    min-height: 120px;
+    width: 100%;
+    padding: 2.5rem;
+    resize: vertical;
+}
+
+#survey-form {
+
+    background-color: rgba(27, 27, 50, 0.8);
+    border-radius: 30px;
+    padding: 2.5rem;
+    color: white;
+    display: grid;
+    /* flex-direction: column; */
+    /* flex-wrap: nowrap; */
+    align-content: center;
+    justify-content: center;
+    grid-gap: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+
+input[type='text'] {
+    width: 100%;
+}
+
+input[type='email'] {
+    width: 100%;
+}
+
+input[type='number'] {
+    width: 100%;
+}
+
+select {
+    width: 100%;
+}
+
+.submit-button {
+    display: block;
+    width: 100%;
+    padding: 0.75rem;
+    background: #37af65;;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}
